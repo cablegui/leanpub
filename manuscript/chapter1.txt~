@@ -302,13 +302,13 @@ data.
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![Fig1](images/Chap1-Histogram.png)
+![Fig1](figure/Chap1-Histogram.png)
 
 Lets change the bin width to make things a bit clearer
 
     ggplot(mf_return, aes(X5.Yr.Return)) + geom_histogram(binwidth=10)
 
-![Fig1-1](images/Chap1-Histogram-2.png)
+![Fig1-1](figure/Chap1-Histogram-2.png)
 
 ### Barplot
 
@@ -317,4 +317,4 @@ the data rather than binning the data in ranges.
 
     ggplot(mf_return, aes(X5.Yr.Return)) + geom_bar()
 
-![Fig2](images/Chap1-Bar.png)
+![Fig2](figure/Chap1-Bar.png)
