@@ -1,4 +1,4 @@
-# The goal
+The goal
 --------
 
 In this first chapter lets learn how to display and interpret data using
